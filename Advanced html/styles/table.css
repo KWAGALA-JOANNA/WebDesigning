@@ -1,0 +1,17 @@
+/* by this we try to add borders to the table, table header, table data */
+table, th, td {
+    border:1px solid black;
+    border-collapse:collapse;
+    /* size, style, color */
+    
+}
+tr:nth-child(even),th:nth-child(even),td:nth-child(even){background-color: #9ac825;}
+#nation:hover{
+    background-color: rgb(130, 130, 40);
+}
+tr{
+    text-align: center;
+    font-size: 12px;
+    text-shadow: 2px, 2px, black;
+    
+}
